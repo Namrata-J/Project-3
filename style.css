@@ -1,0 +1,328 @@
+html{
+    font-family: "helvetica neue", "Arial", sans-serif;
+}
+body{
+    background-color: white;
+    margin: 0%;
+}
+/* header section css starts from here */
+header
+{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.header-container{
+    width: 80%;
+    margin: auto;
+}
+.column{
+    width: 33%;
+    float: left;
+}
+.logo{
+    margin-top: 27px;
+}
+.menu{
+    margin-top: 27px;
+}
+.menu li{
+    list-style-type: none;
+    display: inline;
+    color: rgb(184, 174, 174);
+    font-size: .85em;
+    padding-left: 30px;
+}
+.getstarted{
+    background-color: rgb(126, 199, 104);;
+    text-decoration: none;
+    padding: 10px 28px;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+    float: right;
+}
+/* header section css ends here */
+.top-section-main{
+    background-image: url(../Images/friends.jpg);
+    height: 740px;
+    border: none;
+}
+
+.top-section-content h1{
+    margin-top: 0%;
+    color: white;
+    font-size: 4em;
+    font-weight: 300;
+    padding-bottom: 0px;
+    padding-top: 90px;
+    margin-bottom: 0%;
+    text-align: center;
+} 
+.top-section-content p{
+    margin-top: 0%;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+}
+.top-section-content{
+    width:60%;
+    margin: auto;
+}
+.play{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.form-trial h6{
+    font-family: sans-serif;
+    color: white;
+    font-size: .8em;
+    display: block;
+    text-align: center;
+    font-weight: 100px;
+}
+.form-trial input{
+    width: 250px;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 1em;
+    padding-left: 10px;
+}
+.form-trial button{
+    background-color: rgb(126, 199, 104);
+    border: none;
+    width: 250px;
+    height: 46px;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: white;
+}
+/* main-section css ends here */
+/* another section starts from here */
+.text{
+    background-color: white;
+}
+.text h1{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 120px;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: 400;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 150px;
+}
+.text span{
+    background-color: rgb(126, 199, 104);
+    color: white;
+}
+.feat-section{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.col-1{
+    width: 33%;
+    display: inline-block
+}
+.col-1 h3{
+    text-align: center;
+}
+.col-1 p{
+    font-family: "helvetica neue", "Arial", sans-serif;
+    color: gray;
+    font-size: .9em;
+    letter-spacing: 1.2px;
+    text-align: center;
+    line-height: 1.5em;
+}
+/* this section ends here */
+.apple{
+    background-color: #f6f8fa;
+    padding-top: 60px;
+    width: 100%;
+    clear: both;
+}
+.showcase{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.col-2{
+    float: left;
+    width: 48%;
+}
+.showcasepic{
+    width: 100%;
+}
+.showcase-text{
+    padding-top: 300px;
+    padding-left: 50px;
+}
+.text-up{
+    font-size: 2em;
+    font-weight: 100;
+    width: 70%;
+    line-height: 1.5em;
+    margin: auto;
+}
+.text-down{
+    font-size: 1em;
+    font-weight: 100;
+    width: 70%;
+    line-height: 1.5em;
+    margin: auto;
+    color: gray;
+    padding: 20px 10px 10px 100px;
+}
+/* apple section ends here */
+.ipad{
+    background-color: white;
+    padding-top: 60px;
+    width: 100%;
+    clear: both;
+}
+/* ipad section ends here */
+.dark-desk{
+    background-image: url(../Images/darkdesk.png);
+    height: 450px;
+    background-position: 50% 50%;
+    padding-bottom: 45px;
+}
+.dark-desk-container h1{
+   text-align: center;
+   margin-top: auto;
+   padding-top: 120px;
+   color: white;
+   font-size: 4em;
+   font-weight: 100;
+}
+.dark-desk-container p{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+.hoverlink{
+    margin: 0;
+    text-align: center;
+    padding-top: 60px;
+}
+.hoverlink a{
+    color: white;
+    background-color: rgb(126, 199, 104);
+    text-decoration: none;
+    padding: 30px 90px;
+    font-size: 1.5em;
+}
+.hoverlink a:hover{
+    background-color: rgb(30, 163, 4);
+}
+/* darkdesk section ends here */
+.last-section{
+    background-color: white;
+    height: 380px;
+}
+.margin{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 70px;
+}
+.section-left{
+    font-size: 2em;
+    font-weight: 200;
+}
+.review{
+    color: gray;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: .9em;
+    padding-bottom: 20px;
+}
+.review strong{
+    color: rgb(100, 98, 98);
+}
+.sign-up-form{
+    background-color: #e9eef3;
+    margin-top: 10px;
+    margin-right: 160px;
+    height: 350px;
+}
+.sign-up-form h5{
+    text-align: center;
+    font-weight: 800;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.sign-up-form input{
+    border-style: none;
+    height: 50px;
+    width: 370px;
+    text-align: left;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+.sign-up-form button{
+    margin-left: 55px;
+    margin-bottom: 20px;
+    background-color: rgb(82, 158, 111);
+    border-style: none;
+    color: white;
+    font-size: 1rem;
+    height: 50px;
+    width: 370px;
+}
+.sign-up-form p{
+    margin-left: 55px;
+    font-size: .7em;
+    margin-right: 55px;
+    color: gray;
+    text-align: center;
+}
+/* last-section ends here */
+.footer-section{
+    background-image: url(../Images/footerbg.png);
+    height: 500px;
+    background-position: 50% 50%;
+}
+.div3{
+    width: 33%;
+    float: left;
+    margin-top: 0px;
+    height: 40%;
+}
+.pic{
+    width: 10%;
+    margin: auto;
+    padding-top: 70px;
+}
+.div3:hover{
+    background-color: rgb(2, 2, 2);
+    opacity: 0.5;
+}
+.footer-logo{
+    width: 10%;
+    margin: auto;
+    padding-top: 300px;
+}
+.footer-text{
+    color: white;
+    font-size: .9em;
+    text-align: center;
+    padding-top: 30px;
+}
+/* .footer-section ends here */
